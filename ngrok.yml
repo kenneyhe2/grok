@@ -1,0 +1,14 @@
+# Copy to ~/.config/ngrok/ngrok.yml on the Pi (or pass with: ngrok start --config ...)
+# Replace AUTHTOKEN with your agent authtoken from https://dashboard.ngrok.com/get-started/your-authtoken
+version: "3"
+agent:
+  authtoken: AUTHTOKEN_HERE
+
+tunnels:
+  oauth:
+    proto: http
+    addr: 127.0.0.1:8790
+    # Your reserved free domain (Pi 3B works fine with this):
+    domain: disinfective-unmeditated-rhoda.ngrok-free.dev
+    schemes:
+      - https

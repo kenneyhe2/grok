@@ -1,0 +1,20 @@
+[Unit]
+Description=Zoom+Calendly OAuth tunnel (proxy + ngrok)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/pi-oauth-tunnel
+Environment=PORT=8790
+Environment=LISTEN_HOST=127.0.0.1
+Environment=PUBLIC_BASE=https://disinfective-unmeditated-rhoda.ngrok-free.dev
+Environment=DATA_DIR=/home/pi/pi-oauth-tunnel/data
+Environment=NGROK_CONFIG=/home/pi/pi-oauth-tunnel/ngrok.yml
+ExecStart=/home/pi/pi-oauth-tunnel/run.sh
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
