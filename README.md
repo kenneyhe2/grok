@@ -69,3 +69,9 @@ curl -s https://disinfective-unmeditated-rhoda.ngrok-free.dev/healthz
 curl -sI "https://disinfective-unmeditated-rhoda.ngrok-free.dev/authorize?response_type=code&client_id=test"
 # expect 302 Location: https://calendly.com/oauth/authorize?...
 ```
+
+## ngrok verification
+
+Endpoint is live in the [ngrok dashboard](https://dashboard.ngrok.com/endpoints) as a pooled HTTPS agent tunnel:
+
+![ngrok endpoints dashboard showing active pooled tunnel for disinfective-unmeditated-rhoda.ngrok-free.dev](docs/ngrok-endpoints-verification.png)
