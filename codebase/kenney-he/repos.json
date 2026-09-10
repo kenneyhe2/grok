@@ -1,0 +1,218 @@
+{
+  "codebase": "kenney-he",
+  "codebaseUrl": "https://cursor.com/codebase/kenney-he",
+  "source": {
+    "type": "github",
+    "owner": "kenneyhe-zingbox",
+    "profileUrl": "https://github.com/kenneyhe-zingbox?tab=repositories"
+  },
+  "repositories": [
+    {
+      "name": "ansible-docker-registry",
+      "github": "kenneyhe-zingbox/ansible-docker-registry",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": true,
+      "description": "Zingbox Ops Docker Registry with S3 encryption, strong security policy and env password",
+      "originUrl": "https://cursor.com/codebase/kenney-he/ansible-docker-registry"
+    },
+    {
+      "name": "ansible-letsencrypt",
+      "github": "kenneyhe-zingbox/ansible-letsencrypt",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": true,
+      "description": "Automated SSL/TLS certificate retrieval and renewal",
+      "originUrl": "https://cursor.com/codebase/kenney-he/ansible-letsencrypt"
+    },
+    {
+      "name": "ansible-role-docker",
+      "github": "kenneyhe-zingbox/ansible-role-docker",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": true,
+      "description": "Ansible role for installing Docker",
+      "originUrl": "https://cursor.com/codebase/kenney-he/ansible-role-docker"
+    },
+    {
+      "name": "bootkube",
+      "github": "kenneyhe-zingbox/bootkube",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": true,
+      "description": "bootkube - Launch a self-hosted Kubernetes cluster",
+      "originUrl": "https://cursor.com/codebase/kenney-he/bootkube"
+    },
+    {
+      "name": "bootkube-osx",
+      "github": "kenneyhe-zingbox/bootkube-osx",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": true,
+      "description": "Coreos kubernetes cluster with bootkube",
+      "originUrl": "https://cursor.com/codebase/kenney-he/bootkube-osx"
+    },
+    {
+      "name": "cross-cloud-swarm",
+      "github": "kenneyhe-zingbox/cross-cloud-swarm",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": true,
+      "description": "An example of a multi-cloud Docker Swarm on AWS and GCE. Uses Terraform and Ansible to bootstrap.",
+      "originUrl": "https://cursor.com/codebase/kenney-he/cross-cloud-swarm"
+    },
+    {
+      "name": "docker-compose-fake-aws",
+      "github": "kenneyhe-zingbox/docker-compose-fake-aws",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": true,
+      "description": "Demonstration of using Docker Compose with fake (mock) AWS services for development",
+      "originUrl": "https://cursor.com/codebase/kenney-he/docker-compose-fake-aws"
+    },
+    {
+      "name": "faas",
+      "github": "kenneyhe-zingbox/faas",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": true,
+      "description": "OpenFaaS - Serverless Functions Made Simple for Docker & Kubernetes",
+      "originUrl": "https://cursor.com/codebase/kenney-he/faas"
+    },
+    {
+      "name": "fakeaws",
+      "github": "kenneyhe-zingbox/fakeaws",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": true,
+      "description": "Test wrappers for AWS services in golang",
+      "originUrl": "https://cursor.com/codebase/kenney-he/fakeaws"
+    },
+    {
+      "name": "haproxy",
+      "github": "kenneyhe-zingbox/haproxy",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": true,
+      "description": "UNOFFICIAL fork of haproxy development repository - ISSUE REPORTS ARE IGNORED!",
+      "originUrl": "https://cursor.com/codebase/kenney-he/haproxy"
+    },
+    {
+      "name": "infer",
+      "github": "kenneyhe-zingbox/infer",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": true,
+      "description": "A static analyzer for Java, C, C++, and Objective-C",
+      "originUrl": "https://cursor.com/codebase/kenney-he/infer"
+    },
+    {
+      "name": "localkube",
+      "github": "kenneyhe-zingbox/localkube",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": false,
+      "description": "my own kube 1.4",
+      "originUrl": "https://cursor.com/codebase/kenney-he/localkube"
+    },
+    {
+      "name": "openvas-docker",
+      "github": "kenneyhe-zingbox/openvas-docker",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": true,
+      "description": "A Docker container for Openvas",
+      "originUrl": "https://cursor.com/codebase/kenney-he/openvas-docker"
+    },
+    {
+      "name": "openvpn",
+      "github": "kenneyhe-zingbox/openvpn",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": true,
+      "description": "OpenVPN  is  an open source VPN daemon",
+      "originUrl": "https://cursor.com/codebase/kenney-he/openvpn"
+    },
+    {
+      "name": "openvpn-client",
+      "github": "kenneyhe-zingbox/openvpn-client",
+      "defaultBranch": "master",
+      "archived": true,
+      "fork": true,
+      "description": "",
+      "originUrl": "https://cursor.com/codebase/kenney-he/openvpn-client"
+    },
+    {
+      "name": "openvpn-client-1",
+      "github": "kenneyhe-zingbox/openvpn-client-1",
+      "defaultBranch": "master",
+      "archived": true,
+      "fork": true,
+      "description": "OpenVPN GUI for Windows.",
+      "originUrl": "https://cursor.com/codebase/kenney-he/openvpn-client-1"
+    },
+    {
+      "name": "openvpn-server-vagrant",
+      "github": "kenneyhe-zingbox/openvpn-server-vagrant",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": true,
+      "description": "VPN server configuration with Vagrant test environment for VPN",
+      "originUrl": "https://cursor.com/codebase/kenney-he/openvpn-server-vagrant"
+    },
+    {
+      "name": "PowerShell",
+      "github": "kenneyhe-zingbox/PowerShell",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": true,
+      "description": "PowerShell for every system!",
+      "originUrl": "https://cursor.com/codebase/kenney-he/PowerShell"
+    },
+    {
+      "name": "simple-openvpn-server",
+      "github": "kenneyhe-zingbox/simple-openvpn-server",
+      "defaultBranch": "master",
+      "archived": true,
+      "fork": true,
+      "description": "",
+      "originUrl": "https://cursor.com/codebase/kenney-he/simple-openvpn-server"
+    },
+    {
+      "name": "Stouts.openvpn",
+      "github": "kenneyhe-zingbox/Stouts.openvpn",
+      "defaultBranch": "develop",
+      "archived": false,
+      "fork": true,
+      "description": "Ansible role to install and configure OpenVPN server",
+      "originUrl": "https://cursor.com/codebase/kenney-he/Stouts.openvpn"
+    },
+    {
+      "name": "tengine",
+      "github": "kenneyhe-zingbox/tengine",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": true,
+      "description": "A distribution of Nginx with some advanced features",
+      "originUrl": "https://cursor.com/codebase/kenney-he/tengine"
+    },
+    {
+      "name": "terraform-eks-demo",
+      "github": "kenneyhe-zingbox/terraform-eks-demo",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": false,
+      "description": "Enhancement of EKS features for Zingbox demo",
+      "originUrl": "https://cursor.com/codebase/kenney-he/terraform-eks-demo"
+    },
+    {
+      "name": "vagrant-docker-example",
+      "github": "kenneyhe-zingbox/vagrant-docker-example",
+      "defaultBranch": "master",
+      "archived": false,
+      "fork": true,
+      "description": "An example project on how to use Vagrant + Docker to build development environments",
+      "originUrl": "https://cursor.com/codebase/kenney-he/vagrant-docker-example"
+    }
+  ]
+}
